@@ -1,0 +1,169 @@
+body{
+	margin:0;
+	background:#F1F1F1;
+
+}
+
+.nav a{
+	color:#f1f1f1 !important;
+	
+}
+.nav a:hover, a:active, a:focus, a:visited{
+	background-color:#191E23 !important;
+	outline:none;
+	
+}
+
+
+.navbar-default{
+	background:#23282D;
+	color:#fff;
+	border:0;
+	border-radius:0;
+	position:fixed;
+	width:100%;
+	z-index: 999;
+}
+.dashboard{
+	background:#0073AA;
+	position:relative;
+}
+.dashboard:after{
+	width:0;
+	height:0;
+	position:absolute;
+	content: '';
+	left:100%;
+	border-top:5px solid transparent;
+	border-bottom:5px solid transparent;
+	border-right:5px solid #f1f1f1;
+	top:50%;
+}
+.dashboard a:hover {
+	background:#0073AA !important;
+	color:#fff !important;
+}
+.dropdown-menu{
+	background:#32373C;
+}
+.content-area{
+	overflow:hidden;
+}
+.left{
+	width:15%;
+	float:left;
+	left:0;
+	position:fixed;
+	top:50px;
+	background:#23282D;
+	height:100%;
+	box-sizing:border-box;
+
+}
+.nav> li{
+	border-bottom:1px solid #696969;
+}
+.content{
+	padding:20px;
+	width:85%;
+	float:right;
+	box-sizing:border-box;
+	overflow:hidden;
+	
+	margin-top:50px;
+}
+.register-form{
+	transform:translateX(-50%) translateY(-50%);
+	position:absolute;
+	left:50%;
+	top:50%;
+	padding:20px;
+	max-width:400px;
+	width:400px;
+	background-color:#fff;
+	border-radius:4px;
+	overflow:hidden;
+	box-shadow:0px 0px 6px 2px rgba(0, 0, 0, 0.2);
+}
+.register-form h2{
+	border-bottom:3px solid #ddd;
+	margin-top:0;
+	padding:6px 0;
+}
+.register-form .form-control{
+	border-radius:0;
+	border:1px solid #ddd;
+}
+
+.fa-exclamation{
+	margin-right: 5px;
+	font-size: 15px;
+	margin-top: 5px;
+}
+
+/*Header Content*/
+.view-notice a{
+	color:#337AB7 !important;
+}
+.view-notice a:hover{
+	background:none !important;
+}
+.add-content{
+	border:1px solid #ddd;
+	padding:20px;
+	margin:20px;
+	border-radius:4px;
+	background:#fff;
+	overflow:hidden;
+}
+.upload-logo, .header-text{
+	
+	
+	
+}
+
+
+.add-content h2{
+	border-bottom:2px solid #ddd;
+	margin-bottom:20px;
+	padding-bottom:5px;
+}
+
+.content{
+	overflow:hidden;
+}
+
+.logo-submit{
+	position:relative;
+}
+.logo-submit input{
+	opacity: 0;
+	position: relative;
+	z-index: 45;
+	cursor: pointer;
+}
+.logo-submit:after{
+	content:'Upload File';
+	position:absolute;
+	width:50%;
+	height: 100%;
+	cursor: pointer;
+	top:0;
+	z-index: 1;
+	border:1px solid #ddd;
+	text-align:center;
+	display: block;
+	padding: 5px;
+}
+.img-border{
+	border:1px solid #ddd;
+}
+.img-border.active{ 
+	box-shadow:  inset 0px 0px 0px 5px rgba(0, 0, 0, 0.5)
+ }
+
+ .notice-title h2{
+
+ 	border-bottom:2px solid #ddd;
+ }
+ 
